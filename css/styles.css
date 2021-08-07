@@ -56,7 +56,7 @@ a {
   border-bottom: 1px solid #f3f935;
   z-index: 9500;
   position: fixed;
-  top: -100%;
+  top: -150%;
   left: 0;
   transition: top .3s ease-in;
   
