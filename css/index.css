@@ -1,0 +1,135 @@
+/* ---------- HEADER ---------- */
+.header {
+  position: relative;
+}
+
+/* ---------- HEADER__PRINCIPAL-TITLE ---------- */
+.header__principal-title {
+  margin-top: 100px;
+  margin-bottom: 250px;
+}
+
+.header__principal-title__txt {
+  margin-left: 10px;
+  padding-bottom: 10px;
+  font-size: 1.8em;
+}
+
+.header__principal-title__link {
+  margin-left: 10px;
+  padding: 20px 30px;
+  background: rgba(35, 35, 35, 0.9);
+  font-size: .8em;
+  letter-spacing: 1px;
+  transition: color .2s ease;
+}
+
+.header__principal-title__link .fa {
+  padding-left: 10px;
+}
+
+.header__principal-title__link:hover {
+  color: rgb(245, 245, 245);
+  transition: color .2s ease;
+}
+
+.header__principal-title__logo {
+  font-size: 6em;
+  font-family: 'Times New Roman';
+  color: #f3f935;
+  letter-spacing: -15px;
+  user-select: none;
+  position: absolute;
+  right: 5px;
+  top: 150px;
+}
+
+/* ---------- HEADER__INTRODUCTION ---------- */
+.header__introduction {
+  padding: 10px;
+  background: rgba(40, 40, 40, .9);
+  backdrop-filter: blur(8px);
+}
+
+.header__introduction i[class~="fa-caret-right"] {
+  padding-left: 10px;
+}
+
+/* ---------- HEADER__INTRODUCTION__TITLE ---------- */
+.header__introduction__title__txt {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: lighter;
+}
+
+.header__introduction__title__link {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* ---------- HEADER__INTRODUCTION__INFO ---------- */
+.header__introduction__info__title {
+  margin-bottom: -10px;
+  padding-top: 20px;
+}
+
+.header__introduction__info__title .fa {
+  padding-right: 10px;
+}
+
+.header__introduction__info__txt {
+  margin-bottom: 5px;
+  padding-left: 30px;
+}
+
+.header__introduction__info__link {
+  padding-left: 30px;
+  text-decoration: underline;
+  color: #fff;
+}
+
+/* ---------- HEADER__INTRODUCTION__BTN ---------- */
+.header__introduction__btn {
+  margin-top: 90px;
+  margin-bottom: 45px;
+}
+
+.header__introduction__btn__link {
+  padding: 20px 30px;
+  border: 1px solid #f3f935;
+  color: rgb(245, 245, 245);
+  font-size: .8em;
+  letter-spacing: 1px;
+  transition: color .2s ease;
+}
+
+.header__introduction__btn__link:hover {
+  color: #f3f935;
+  transition: color .2s ease;
+}
+
+/* ---------- HEADER__INTRODUCTION__SOCIAL ---------- */
+.header__introduction__social__txt {
+  font-size: .8em;
+  letter-spacing: 1px;
+}
+
+i[class~="fab"] {
+  margin-bottom: 15px;
+  margin-right: 5px;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #868a16;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 45px;
+  font-size: 1.4em;
+  transition: border .1s ease;
+}
+
+i[class~="fab"]:hover {
+  border: 1px solid #f3f935;
+  transition: border .1s ease;
+}
+
+/* ---------- MAIN ---------- */

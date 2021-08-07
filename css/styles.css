@@ -1,11 +1,20 @@
 /* ---------- ALL ---------- */
 body {
+  background: linear-gradient( rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/index-background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: rgb(245, 245, 245);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #f3f935;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* ---------- NAV ---------- */
 .nav {
-  background: rgb(60, 60, 60);
+  background: rgb(40, 40, 40);
 }
 
 /* ---------- NAV__MENU__TEXT ---------- */
@@ -26,22 +35,26 @@ body {
 }
 
 .nav__menu__text__icon {
-  padding: 10px;
+  width: 40px;
+  height: 40px;
   font-size: 1.3em;
   border: 2px solid;
   border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
   cursor: pointer;
-  z-index: 100;
+  z-index: 10000;
   position: fixed;
 }
 
 /* ---------- NAV__MENU__LINKS ---------- */
 .nav__menu__links {
-  background: rgb(60, 60, 60);
+  background: rgb(40, 40, 40);
   width: 100%;
   height: 100vh;
   border-top: 1px solid #f3f935;
   border-bottom: 1px solid #f3f935;
+  z-index: 9500;
   position: fixed;
   top: -100%;
   left: 0;
