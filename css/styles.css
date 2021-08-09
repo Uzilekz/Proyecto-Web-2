@@ -17,36 +17,6 @@ a {
   background: rgb(40, 40, 40);
 }
 
-/* ---------- NAV__MENU__TEXT ---------- */
-.nav__menu__text {
-  padding: 10px;
-  color: #f3f935;
-  
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.nav__menu__text__txt {
-  margin-right: 50px;
-  font-size: .8em;
-  font-weight: bold;
-  letter-spacing: 3px;
-}
-
-.nav__menu__text__icon {
-  width: 40px;
-  height: 40px;
-  font-size: 1.3em;
-  border: 2px solid;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 40px;
-  cursor: pointer;
-  z-index: 10000;
-  position: fixed;
-}
-
 /* ---------- NAV__MENU__LINKS ---------- */
 .nav__menu__links {
   background: rgb(40, 40, 40);
@@ -73,7 +43,7 @@ a {
 .nav__menu__links__link {
   padding: 10px 0;
   padding-left: 20px;
-  font-size: 1.5em;
+  font-size: 1.4em;
   text-decoration: none;
   color: rgb(245, 245, 245);
   transition-property: margin-left, color;
@@ -94,4 +64,58 @@ a {
 
 .nav__menu__links__link__icon {
   padding-right: 10px;
+}
+
+/* ---------- NAV__MENU__TEXT ---------- */
+.nav__menu__text {
+  padding: 10px;
+  color: #f3f935;
+  
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav__menu__text__txt {
+  margin-right: 50px;
+  font-size: .7em;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.nav__menu__text__icon {
+  width: 40px;
+  height: 40px;
+  font-size: 1.3em;
+  border: 2px solid;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  position: fixed;
+}
+
+/* ---------- HEADER__INTRODUCTION ---------- */
+i[class~="fa-caret-right"] {
+  padding-left: 10px;
+}
+
+/* ---------- HEADER__INTRODUCTION__SOCIAL ---------- */
+i[class~="fab"] {
+  margin-bottom: 15px;
+  margin-right: 5px;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #868a16;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 45px;
+  font-size: 1.3em;
+  transition: border .1s ease;
+}
+
+i[class~="fab"]:hover {
+  border: 1px solid #f3f935;
+  transition: border .1s ease;
 }
