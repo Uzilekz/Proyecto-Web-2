@@ -1,8 +1,8 @@
 /* ---------- ALL ---------- */
 body {
-  background: linear-gradient( rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/index-background.jpg) no-repeat center center fixed;
+  background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/index-background.jpg) no-repeat center center fixed;
   background-size: cover;
-  color: rgb(245, 245, 245);
+  color: rgb(240, 240, 240);
   font-family: Arial, Helvetica, sans-serif;
 }
 

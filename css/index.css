@@ -109,7 +109,7 @@
 
 /* ---------- HEADER__INTRODUCTION__SOCIAL ---------- */
 .header__introduction__social__txt {
-  font-size: .7em;
+  font-size: .9em;
   letter-spacing: 1px;
 }
 
@@ -175,4 +175,121 @@
 .main__news__container__btn__link:hover {
   background: #f7ff14;
   transition: background .2s ease;
+}
+
+/* ---------- MAIN__EXHIBITIONS ---------- */
+.main__exhibitions__principal-title {
+  padding-top: 25px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 0 0 5px #000;
+}
+
+.main__exhibitions {
+  background: rgba(40, 40, 40, .95);
+  padding: 10px;
+}
+
+/* ---------- MAIN__EXHIBITIONS__ARTICLE ---------- */
+.main__exhibitions__article {
+  margin-bottom: 20px;
+  padding: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.main__exhibitions__article:after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient( rgba(0, 0, 0, .1), transparent);
+  opacity: 0;
+  transition: all .3s ease;
+}
+
+.main__exhibitions__article:hover:after {
+  opacity: 1;
+}
+
+.main__exhibitions__article__img {
+  height: 200px;
+  object-fit: cover;
+  transition: filter .4s ease;
+}
+
+.main__exhibitions__article:hover .main__exhibitions__article__img {
+  filter: opacity(85%);
+  transition: filter .4s ease;
+}
+
+.main__exhibitions__article__title {
+  margin: 10px 0;
+  font-size: .8em;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.main__exhibitions__article__principal-title {
+  margin: 0;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+}
+
+.main__exhibitions__article__date {
+  margin: 5px 0;
+  font-size: .9em;
+  color: rgb(180, 180, 180);
+}
+
+.main__exhibitions__article__link {
+  border-bottom: 1px solid rgb(160, 160, 160);
+  padding-top: 80px;
+  padding-bottom: 20px;
+  display: block;
+  font-size: .8em;
+  letter-spacing: 1px;
+  transition: border-bottom .4s ease;
+}
+
+.main__exhibitions__article:hover .main__exhibitions__article__link {
+  border-bottom: 1px solid #f7ff14;
+  transition: border-bottom .4s ease;
+}
+
+/* ---------- MAIN__EXHIBITIONS__SHOW-MORE ---------- */
+.main__exhibitions__show-more {
+  background: #222;
+  padding: 20px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__exhibitions__show-more__btn {
+  background: #f3f935;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: #222;
+  font-size: 1.6em;
+  text-align: center;
+  line-height: 54px;
+  transition: background .3s ease;
+}
+
+.main__exhibitions__show-more__btn:hover {
+  background: #f7ff14;
+  transition: background .3s ease;
+}
+
+.main__exhibitions__show-more__txt {
+  margin: 5px;
+  font-size: .8em;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
