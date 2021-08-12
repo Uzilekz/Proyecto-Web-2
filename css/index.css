@@ -278,7 +278,7 @@
   color: #222;
   font-size: 1.6em;
   text-align: center;
-  line-height: 54px;
+  line-height: 60px;
   transition: background .3s ease;
 }
 
@@ -293,3 +293,96 @@
   font-weight: bold;
   letter-spacing: 1px;
 }
+
+/* ---------- MAIN__EMAIL ---------- */
+.main__email {
+  margin-top: 30px;
+  background: rgb(230, 230, 230);
+  color: #222;
+  text-align: center;
+  position: relative;
+  z-index: 1000;
+}
+
+.main__email__container {
+  padding: 10px;
+}
+
+.main__email__container__logo {
+  color: rgb(215, 215, 215);
+  font-size: 10em;
+  font-family: 'Times New Roman';
+  letter-spacing: -20px;
+  position: absolute;
+  top: -16px;
+  right: 30px;
+  user-select: none;
+  z-index: -1000;
+}
+
+.main__email__container__title {
+  margin: 0;
+  padding-top: 30px;
+  font-size: 1.1em;
+}
+
+.main__email__container__sub-title {
+  margin: 0 5px;
+  padding-top: 10px;
+  font-size: .9em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  line-height: 1.3;
+}
+
+.main__email__container__form {
+  padding: 20px 5px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.main__email__container__form__input {
+  margin-bottom: 10px;
+  border: none;
+  padding: 20px;
+  text-align: center;
+}
+
+.main__email__container__form__input:focus {
+  outline: 3px solid #222;
+}
+
+.main__email__container__form__submit {
+  margin-bottom: 0;
+  border: none;
+  padding: 15px;
+  background: #222;
+  color: rgb(245, 245, 245);
+  font-size: .9em;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+.main__email__container__form__submit:hover {
+  outline: 1px solid rgb(255, 147, 5);
+  background: #f7ff14;
+  color: #222;
+  transition: all .2s ease;
+}
+
+.main__email__container__txt {
+  margin: 0;
+  padding-bottom: 20px;
+  color: #666;
+  font-size: .8em;
+  line-height: 1.2;
+}
+
+.main__email__container__txt__link {
+  text-decoration: underline;
+  color: #666;
+}
+
+/* ---------- MAIN__COLLECTION ---------- */
