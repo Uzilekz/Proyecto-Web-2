@@ -524,6 +524,7 @@
   display: inline-block;
   background: #f3f935;
   margin: 10px 0;
+  border-radius: 3px;
   padding: 15px 25px;
   color: #111;
   font-size: .9em;
@@ -535,4 +536,162 @@
 .main__other__article__container__link:hover {
   background: #f7ff14;
   transition: background .4s ease;
+}
+
+/* ---------- FOOTER ---------- */
+.footer {
+  background: #222;
+  margin-top: 100px;
+  padding: 0 10px;
+}
+
+/* ---------- FOOTER__EMAIL ---------- */
+.footer__email {
+  border-bottom: 1px solid rgb(199, 199, 199);
+  padding: 20px 0;
+}
+
+.footer__email__title {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.footer__email__sub-title {
+  margin-top: -15px;
+  font-weight: lighter;
+  line-height: 1.3;
+}
+
+.footer__email__form__input {
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+}
+
+.footer__email__form__input:focus {
+  outline: 3px solid #111;
+}
+
+.footer__email__form__submit {
+  background: #f3f935;
+  border: none;
+  border-radius: 3px;
+  padding: 15px 20px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: background .2s ease;
+}
+
+.footer__email__form__submit:hover {
+  background: #f7ff14;
+  transition: background .2s ease;
+}
+
+.footer__email__txt {
+  font-size: .8em;
+  line-height: 1.3;
+}
+
+.footer__email__txt__link {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* ---------- FOOTER__OTHER ---------- */
+.footer__other {
+  padding: 30px 0;
+}
+
+.footer__other__principal-title {
+  font-size: 1.8em;
+}
+
+/* ---------- FOOTER__OTHER__COLUMN ---------- */
+.footer__other__column__date, .footer__other__column__txt {
+  font-size: .8em;
+}
+
+.footer__other__column__sub-title {
+  margin-top: 60px;
+  margin-bottom: 10px;
+  font-weight: lighter;
+}
+
+.footer__other__column__link {
+  display: block;
+  font-size: .8em;
+  transition: color .2s ease;
+}
+
+.footer__other__column__link:hover {
+  color: #fff;
+  transition: color .2s ease;
+}
+
+.footer__other__column__link:last-of-type {
+  margin-bottom: 60px;
+}
+
+/* ---------- FOOTER__OTHER__COLUMNS ---------- */
+.footer__other__columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__other__columns__column {
+  flex: 45%;
+}
+
+.footer__other__columns__column__title {
+  font-size: .8em;
+  letter-spacing: 2px;
+}
+
+.footer__other__columns__column__link {
+  margin-bottom: 15px;
+  display: block;
+  font-size: .75em;
+  transition: color .2s ease;
+}
+
+.footer__other__columns__column__link:hover {
+  color: #fff;
+  transition: color .2s ease;
+}
+
+/* ---------- FOOTER__SOCIAL ---------- */
+.footer__social {
+  margin-top: 60px;
+}
+
+/* ---------- FOOTER__COPY ---------- */
+.footer__copy {
+  color: rgb(190, 190, 190);
+  font-size: .85rem;
+}
+
+.footer__copy__links {
+  margin-top: 0;
+}
+
+.footer__copy__links__link {
+  color: rgb(190, 190, 190);
+  text-decoration: underline;
+  line-height: 1.4;
+}
+
+.footer__copy__logo {
+  height: 150px;
+  position: relative;
+}
+
+.footer__copy__logo__icon {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  color: #333;
+  font-size: 12em;
+  font-family: 'Times New Roman';
+  letter-spacing: -30px;
+  user-select: none;
 }
